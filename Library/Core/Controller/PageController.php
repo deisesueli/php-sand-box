@@ -10,10 +10,9 @@ class PageController extends Request
     public function __construct()
     {
         $this->beforeCall();
-        $this->renderLayout();
     }
 
-    public function renderLayout()
+    public function renderLayout($param)
     {
         include_once(sprintf("%s/%s.phtml", self::DEFAULT_LAYOUT_PATH, $this->layout));
     }
