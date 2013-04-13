@@ -1,0 +1,75 @@
+/*
+    Document   : style
+    Created on : 14/07/2012, 15:14:15
+    Author     : Vinicius
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+a {color: #696969; text-decoration: none;}
+a:hover {color: black; text-decoration: underline;}
+
+.mark {border: 1px solid #CCC; padding: 10px;}
+
+.destaque {text-align: center; height: 20px; background-color: #CCC; margin-left: 10px; border: 1px solid dimGray;}
+
+.clear {clear: both;}
+.opacity {opacity: 0.7;}
+.hide{display: none;}
+.spacing{padding: 20px}
+.pointer {cursor: pointer;}
+
+.table-model { width: 520px; }
+
+input[type=submit]{cursor: pointer; background-color: whiteSmoke; border: 1px solid #CCC; color: dimGray; padding: 10px 30px 10px 30px;}
+input[type=file] { margin: 10px; }
+
+table{width: 100%; padding: 20px;}
+
+.input_normal {width: 300px; height: 30px; padding: 5px; border: 1px solid #ccc;}
+.textarea_normal {width: 500px; height: 100px; border: 1px solid #CCC;}
+.textarea_grande {width: 500px; height: 200px; border: 1px solid #CCC;}
+
+body { background-color:#F5F5F5;  font-family: Arial; color: #696969; }
+
+.breadcrumbs{color: white; display: table; width: 980px; margin: 0 auto 10px; background-color:#c88a20; }
+.breadcrumbs .item{color: white; float: left; padding: 10px;}
+.breadcrumbs .item a{color: white;}
+.breadcrumbs .item:hover{color: #696969; background-color: white;}
+
+.center{display:table; background-color:white; width: 980px; min-height: 300px; border: 1px solid #ccc; margin: 0 auto; }
+.center .box-info{ width: 35%; height: 200px; float: left; padding: 70px; }
+.center .box-info input[type=text]{width: 260px; height: 20px; margin-bottom: 10px; padding: 10px;}
+.center .box-info input[type=password]{width: 260px; height: 20px; margin-bottom: 10px; padding: 10px;}
+
+.center .menu {width: 25%;  float: left; }
+.center .menu .menu-box { margin: 20px; border: 1px solid #CCC; } 
+.center .menu .main-item {cursor: pointer; background-color: #c88a20; color: white; text-align: center; padding: 10px;}
+.center .menu .item {cursor:pointer; color: dimGray; text-align: center; padding: 10px;}
+.center .menu .item:hover {background-color: #F5F5F5;}
+.center .menu .checked {background-color: #F5F5F5; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+
+.division {border: 1px solid #ccc; margin: 10px;}
+.division .title {padding: 10px; background-color: #819D46; text-align: center; color: white;}
+
+.center .content {display: table; width: 73%; height: 100%; float: left; border-left: 1px solid #CCC;}
+.center .content .info-box {display: table; width: 100%;}
+.center .content .info-box .info {width: 33%; float: left;}
+.center .content .info-box .info .number{ text-align: center; font-size: 90px; color: steelBlue;}
+.center .content .info-box .info .subtitle{text-align: center; color: dimGray;}
+
+.center .content .table {color: #696969; font-size: 14px; }
+.center .content .table .table-top td {padding: 10px; background-color: #CCC; }
+.center .content .table img {width: 150px; }
+
+.center .content .order ul {margin: 20px; padding: 0;  }
+.center .content .order li {list-style: none;  }
+.center .content .order .order-item {cursor: move; padding: 10px; background-color: whiteSmoke; border: 1px solid #CCC; margin-bottom: 10px; }
+.center .content .order .order-item:hover {background-color: #ccc;}
+
+.center .content .table-form img {margin: 10px; max-width: 200px; padding: 5px; border: 1px solid #ccc; box-shadow: 8px 8px 10px #888; }
+.center .content .table-form .image-edit {width: 149px; height: 114px; margin-top: -143px; position: absolute; opacity: 0.7; background-color: white; padding-left: 60px; padding-top: 25px; }
+.center .content .table-form .trash {cursor: pointer; margin-top: 0px; position: absolute; margin-left: -33px; background-color: white; }
+
+.center .content .table td {padding: 5px; border: 1px solid #ccc;}
+.center .content .table .delete td {padding: 5px; border: 1px solid whitesmoke; opacity: 0.7;}
