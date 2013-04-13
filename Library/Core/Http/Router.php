@@ -15,7 +15,7 @@ class Router implements RouterInterface
 
     public function __construct(RequestInterface $request)
     {
-        $this->controllerName = $request->getControllerName();
+        $this->controllerName = $request->getControllerClassName();
         $this->actionName = $request->getActionName();
     }
 
